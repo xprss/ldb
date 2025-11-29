@@ -47,3 +47,5 @@ jobs:
           asset_path: ./build.tar.gz
           asset_name: build-${{ github.ref_name }}.tar.gz
           asset_content_type: application/gzip
+        env:
+          GITHUB_TOKEN: ${{ secrets.LDB_ACTION_TOKEN }}
