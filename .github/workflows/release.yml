@@ -37,7 +37,7 @@ jobs:
           draft: false
           prerelease: false
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.LDB_ACTION_TOKEN }}
 
       # 6. Upload artifact to release
       - name: Upload Release Asset
