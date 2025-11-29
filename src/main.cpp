@@ -22,5 +22,6 @@ int main(int argc, char const *argv[])
         driver->writeData("\n");
     }
     driver->closeFile();
+    delete driver;
     return 0;
 }
