@@ -11,7 +11,7 @@ void Driver::openFile(const char *filename, char const *mode)
     std::cout << "File opened successfully." << std::endl;
 }
 
-const int Driver::writeData(const std::string data)
+int Driver::writeData(const std::string data)
 {
     // Implementation for opening a file
     if (this->filePtr == NULL) {
